@@ -39,7 +39,7 @@ def show_primes():
 
 # Set up the GUI
 root = tk.Tk()
-root.title("Prime Number Finder")
+root.title("Prime Number amazing  Finder")
 root.configure(bg="blue")  # Set the background color to red
 
 
