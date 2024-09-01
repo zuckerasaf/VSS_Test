@@ -32,7 +32,7 @@ def show_primes():
 				formatted_primes += "\n"
 			formatted_primes += str(primes[i]) + " "
 		# Set the formatted prime numbers in the result text box
-		result_text.set("Prime numbers:\n" + formatted_primes.strip())
+		result_text.set("enter Prime numbers:\n" + formatted_primes.strip())
 	except ValueError:
 		# Show error message if input is not a valid number
 		messagebox.showerror("Invalid input", "Please enter a valid number")
