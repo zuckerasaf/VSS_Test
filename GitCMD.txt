@@ -1,6 +1,15 @@
+
+# For the first time setup:
 cd path/to/your/project
 git init
 git add .
 git commit -m "Initial commit"
 git remote add origin https://github.com/your-username/VSS_Test.git
 git push -u origin master
+
+# For any subsequent updates:
+cd path/to/your/project
+git status
+git add .
+git commit -m "Describe the changes you made"
+git push origin master
